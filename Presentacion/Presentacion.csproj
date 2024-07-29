@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2070E71-1FCB-4D9E-B88D-79B534D8106C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form2Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2Inicio.Designer.cs">
+      <DependentUpon>Form2Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3Inicio.Designer.cs">
+      <DependentUpon>Form3Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4Inicio.Designer.cs">
+      <DependentUpon>Form4Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5Inicio.Designer.cs">
+      <DependentUpon>Form5Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6Inicio.Designer.cs">
+      <DependentUpon>Form6Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFin1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFin1.Designer.cs">
+      <DependentUpon>FormFin1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFin2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFin2.Designer.cs">
+      <DependentUpon>FormFin2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFin3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFin3.Designer.cs">
+      <DependentUpon>FormFin3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFin4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFin4.Designer.cs">
+      <DependentUpon>FormFin4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFin5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFin5.Designer.cs">
+      <DependentUpon>FormFin5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFin6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFin6.Designer.cs">
+      <DependentUpon>FormFin6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReglas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReglas.Designer.cs">
+      <DependentUpon>FormReglas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1Inicio.Designer.cs">
+      <DependentUpon>Form1Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReglas2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReglas2.Designer.cs">
+      <DependentUpon>FormReglas2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReglas3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReglas3.Designer.cs">
+      <DependentUpon>FormReglas3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReglas4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReglas4.Designer.cs">
+      <DependentUpon>FormReglas4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReglas5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReglas5.Designer.cs">
+      <DependentUpon>FormReglas5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReglas6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReglas6.Designer.cs">
+      <DependentUpon>FormReglas6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form2Inicio.resx">
+      <DependentUpon>Form2Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3Inicio.resx">
+      <DependentUpon>Form3Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4Inicio.resx">
+      <DependentUpon>Form4Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5Inicio.resx">
+      <DependentUpon>Form5Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6Inicio.resx">
+      <DependentUpon>Form6Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFin1.resx">
+      <DependentUpon>FormFin1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFin2.resx">
+      <DependentUpon>FormFin2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFin3.resx">
+      <DependentUpon>FormFin3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFin4.resx">
+      <DependentUpon>FormFin4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFin5.resx">
+      <DependentUpon>FormFin5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFin6.resx">
+      <DependentUpon>FormFin6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReglas.resx">
+      <DependentUpon>FormReglas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1Inicio.resx">
+      <DependentUpon>Form1Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReglas2.resx">
+      <DependentUpon>FormReglas2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReglas3.resx">
+      <DependentUpon>FormReglas3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReglas4.resx">
+      <DependentUpon>FormReglas4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReglas5.resx">
+      <DependentUpon>FormReglas5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReglas6.resx">
+      <DependentUpon>FormReglas6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reglas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel3_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel4_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel5_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel6_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_6.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
